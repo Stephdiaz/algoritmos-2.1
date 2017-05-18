@@ -1,0 +1,261 @@
+// tester.cpp: define el punto de entrada de la aplicación de consola.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+
+//Codificado por: sAfOrAs
+//Codigo fuente: Signos del zodiaco
+#include <iostream>
+using namespace std;
+int main()
+{
+      int mes, dia;
+      cout<<"\t\t\tSIGNO ZODIACAL"<<endl;
+      cout<<"(1)Enero  \t(2)Febrero  \t(3)Marzo  \t(4)Abril"<<endl;
+      cout<<"(5)Mayo  \t(6)Junio     \t(7)Julio  \t(8)Agosto"<<endl;
+      cout<<"(9)Septiembre  \t(10)Octubre  \t(11)Noviembre  \t(12)Diciembre"<<endl<<endl;
+      cout<<"Ingrese la fecha de su cumple"<<char(164)<<"dia"<<endl;
+      cin>>dia;
+	  cout<<"ingrese mes"<<endl;
+	  cin>>mes;
+      switch(mes)
+      {
+ 
+            case 1:
+                switch(dia)
+                {
+                case 21:case 22:case 23:case 24:case 25:case 26:case 27:case 28:case 29:case 30:
+                cout<<"acuario"<<endl;
+				cout << "El cinico . "<<endl; 
+					cout << "Este se lleva el honorable segundo lugar."<<endl; 
+					cout << "Hace cosas malas por el simple hecho de reirse de tu sufrimiento."<<endl; 
+					cout << "El tiene una enfermedad cardiaca hereditaria: Le falta el corazon"<<endl; 
+				cout << "Pretextos posibles: *¡Ja-ja!*"<<endl; 
+				cout << "CONSEJO PARA TI--> hablandaras tu corazon, con ADMINISTRACION INFORMATICA"<<endl; 
+				cout << "Considera esta carrera como tu eleccion :)"<<endl; break;
+                default:cout<<"capricornio"<<endl;
+					cout<<"El sinverguenza limitado."<<endl;
+					cout<<"La indiferencia de Tauro + el egoismo de Leo + su propia estupidez personal."<<endl;
+					cout<<"Mas su codicia como condimento."<<endl;
+					cout<<"Pretextos posibles: *Pues asi paso...*"<<endl;
+					cout << "CONSEJO PARA TI--> Preocupate por cambiar, o te cambiaran a la fuerza"<<endl;
+						cout << "ADMINISTRACION INFORMATICA puede ayudarte, Considera esta carrera como tu eleccion :)"<<endl; break;}break;
+            case 2:
+                switch(dia){
+                case 21:case 22:case 23:case 24:case 25:case 26:case 27:case 28:case 29:case 30:
+                cout<<"piscis"<<endl;
+				cout << "	El sinverguenza indiferente. "<<endl;
+					cout << "	Al escuchar el grito de *¡Ayudenme!*"<<endl;
+					cout << "	de inmediato cierra su ventana y se envuelve en su cobija."<<endl;
+					cout << "	Posiblemente no venga a verte al hospital, mientras tu"<<endl;
+					cout << "	pasas tus ultimos días entre enfermeras y agujas. "<<endl;
+					cout << "	Y otras cosas por el estilo."<<endl;
+					cout << "	Pretextos posibles: *Cada quien se cuida como puede, lo siento*"<<endl;
+					cout << "CONSEJO PARA TI--> indiferentemente Considera esta carrera como tu eleccion :)"<<endl;break;
+                default:cout<<"acuario"<<endl;
+				cout << "El cinico . "<<endl; 
+					cout << "Este se lleva el honorable segundo lugar."<<endl; 
+					cout << "Hace cosas malas por el simple hecho de reirse de tu sufrimiento."<<endl; 
+					cout << "El tiene una enfermedad cardiaca hereditaria: Le falta el corazon"<<endl; 
+				cout << "Pretextos posibles: *¡Ja-ja!*"<<endl; 
+				cout << "CONSEJO PARA TI--> hablandaras tu corazon, con ADMINISTRACION INFORMATICA"<<endl; 
+				cout << "Considera esta carrera como tu eleccion :)"<<endl; break;}break;
+            case 3:
+                switch(dia){
+                case 21:case 22:case 23:case 24:case 25:case 26:case 27:case 28:case 29:case 30:
+                cout<<"aries"<<endl;break;
+				cout <<"El impulsivo . Esto lo explica todo."<<endl;
+					cout <<"Justo despues de ofender a alguien, o pide perdon,"<<endl;
+					cout <<"ruidosamente, con cara dramatica, ojos exaltados y otros efectos teatrales"<<endl;
+					cout <<"(por si acaso mañana es necesario pedir perdon de nuevo);"<<endl;
+				cout <<"o simplemente no pide ni una disculpa pues el orgullo no lo permite"<<endl;
+				cout << "Pretextos posibles: *No se cómo paso*" << endl;
+					cout << "CONSEJO PARA TI--> Impulsate a Considerar esta carrera como tu eleccion :)"<<endl; break;
+					
+                default:cout<<"piscis"<<endl;
+					cout << "	El sinverguenza indiferente. "<<endl;
+					cout << "	Al escuchar el grito de *¡Ayudenme!*"<<endl;
+					cout << "	de inmediato cierra su ventana y se envuelve en su cobija."<<endl;
+					cout << "	Posiblemente no venga a verte al hospital, mientras tu"<<endl;
+					cout << "	pasas tus ultimos días entre enfermeras y agujas. "<<endl;
+					cout << "	Y otras cosas por el estilo."<<endl;
+					cout << "	Pretextos posibles: *Cada quien se cuida como puede, lo siento*"<<endl;
+					cout << "CONSEJO PARA TI--> indiferentemente Considera esta carrera como tu eleccion :)"<<endl;break;}break;
+            case 4:
+                switch(dia){
+                   case 21:case 22:case 23:case 24:case 25:case 26:case 27:case 28:case 29:case 30:
+                cout<<"tauro"<<endl;
+				cout << " El ahorrativo sinvergüenza . "<<endl;
+					cout << " Todo lo contrario a Aries. Es posible ya ni preguntar:"<<endl;
+				cout << "  ' Hey, ¿Entiendes lo que estas haciendo?'  ¡Claro que lo entiende!"<<endl;
+					cout << " De antemano ha calculado exactamente"<<endl;
+					cout << " donde debe dar el golpe para que duela mas."<<endl;
+					cout <<"Pretextos posibles: *Tú te lo ganaste* "<<endl;
+					 cout << "CONSEJO PARA TI--> calcula bien esta opcion y Considera esta carrera como tu eleccion :)"<<endl; break;
+                   default:cout<<"aries"<<endl;
+					cout <<"El impulsivo . Esto lo explica todo."<<endl;
+					cout <<"Justo despues de ofender a alguien, o pide perdon,"<<endl;
+					cout <<"ruidosamente, con cara dramatica, ojos exaltados y otros efectos teatrales"<<endl;
+					cout <<"(por si acaso mañana es necesario pedir perdon de nuevo);"<<endl;
+					cout <<"o simplemente no pide ni una disculpa pues el orgullo no lo permite"<<endl;
+					cout << "Pretextos posibles: *No se cómo paso*" << endl;
+					cout << "CONSEJO PARA TI--> Impulsate a Considerar esta carrera como tu eleccion :)"<<endl; break;}break;
+            case 5:
+                switch(dia){
+                case 21:case 22:case 23:case 24:case 25:case 26:case 27:case 28:case 29:case 30:
+                cout<<"geminis"<<endl;
+				cout <<"El inconciente  ."<<endl;
+				cout <<"	A menudo simplemente no entiende que se comporta como necio "<<endl;
+				cout <<"	(por alguna razon no tiene conciencia de la mitad de sus acciones). "<<endl;
+				cout <<"	Las travesuras hechas las olvida a los cinco minutos."<<endl;
+				cout <<"	Pretextos posibles: ¿Que? ¿te ofendiste? ¿pero por que?!"<<endl; 
+						cout << "CONSEJO PARA TI--> No olvides Considerar esta carrera como tu eleccion :)"<<endl; break;
+                default:cout<<"tauro"<<endl;
+					cout << " El ahorrativo sinvergüenza . "<<endl;
+					cout << " Todo lo contrario a Aries. Es posible ya ni preguntar:"<<endl;
+					cout << "  ' Hey, ¿Entiendes lo que estas haciendo?'  ¡Claro que lo entiende!"<<endl;
+					cout << " De antemano ha calculado exactamente"<<endl;
+					cout << " donde debe dar el golpe para que duela mas."<<endl;
+					cout <<"Pretextos posibles: *Tú te lo ganaste* "<<endl;
+					 cout << "CONSEJO PARA TI--> calcula bien esta opcion y Considera esta carrera como tu eleccion :)"<<endl; break;}break;
+ 
+            case 6:
+                switch(dia){
+                case 21:case 22:case 23:case 24:case 25:case 26:case 27:case 28:case 29:case 30:
+                cout<<"cancer"<<endl;
+			 cout << "	El desafortunado . "<<endl;
+					 cout << "Para el todos son unos sinvergüenzas, pero el siempre es la victima inocente."<<endl;
+				 cout << "	Siempre sera asi, incluso si lo que el ha hecho es diez "<<endl;
+				 cout << "	veces peor que lo que tu haces. Además, "<<endl;
+				 cout << "	siempre se asegurara de contarle a los demas acerca de como"<<endl;
+				 cout << "	se portan ustedes con el, tan pequeno y pobrecito."<<endl;
+					 cout << "Pretextos posibles: ¡Tú me obligaste!"<< endl;
+					cout << "CONSEJO PARA TI--> Afortunadamente esta ADMINISTRACION INFORMATICA " << endl;
+							cout << "Considera esta carrera como tu eleccion :)"<<endl; break;
+                default:cout<<"geminis"<<endl;
+						cout <<"El inconciente  ."<<endl;
+				cout <<"	A menudo simplemente no entiende que se comporta como necio "<<endl;
+				cout <<"	(por alguna razon no tiene conciencia de la mitad de sus acciones). "<<endl;
+				cout <<"	Las travesuras hechas las olvida a los cinco minutos."<<endl;
+				cout <<"	Pretextos posibles: ¿Que? ¿te ofendiste? ¿pero por que?!"<<endl; 
+						cout << "CONSEJO PARA TI--> No olvides Considerar esta carrera como tu eleccion :)"<<endl; break;}break;
+            case 7:
+                switch(dia){
+                case 21:case 22:case 23:case 24:case 25:case 26:case 27:case 28:case 29:case 30:
+                cout<<"leo"<<endl;
+					cout <<"	El egolatra  . "<<endl; 
+					cout <<"Sólo el es grande, los demas son el polvo bajo sus pies."<<endl; 
+					cout <<"De esta posicion derivan todas sus infamias."<<endl; 
+					cout <<"Pretextos posibles: Como maximo *Asi me vino en gana*"<<endl; 
+					cout << "CONSEJO PARA TI--> Los grandes Consideran esta carrera como su eleccion :)"<<endl; break;
+                default:cout<<"cancer"<<endl;
+					 cout << "	El desafortunado . "<<endl;
+					 cout << "Para el todos son unos sinvergüenzas, pero el siempre es la victima inocente."<<endl;
+				 cout << "	Siempre sera asi, incluso si lo que el ha hecho es diez "<<endl;
+				 cout << "	veces peor que lo que tu haces. Además, "<<endl;
+				 cout << "	siempre se asegurara de contarle a los demas acerca de como"<<endl;
+				 cout << "	se portan ustedes con el, tan pequeno y pobrecito."<<endl;
+					 cout << "Pretextos posibles: ¡Tú me obligaste!"<< endl;
+					cout << "CONSEJO PARA TI--> Afortunadamente esta ADMINISTRACION INFORMATICA " << endl;
+							cout << "Considera esta carrera como tu eleccion :)"<<endl; break;}break;
+            case 8:
+                switch(dia){
+                case 21:case 22:case 23:case 24:case 25:case 26:case 27:case 28:case 29:case 30:
+                cout<<"virgo"<<endl;
+				cout << "El vengativo."<<endl;
+				cout << "	Si alguna vez te metiste en su camino o simplemente estuviste"<<endl;
+				cout << "	en el lugar equivocado y ni siquiera hiciste nada, preparate. "<<endl;
+				cout << "	Todos estos años solamente ha esperado el momento ideal para su venganza."<<endl;
+				cout << "Pretextos posibles: o puede poner cara de no entender nada y decir: "<<endl;
+				cout << "*¿¡Yo?! ¡Pero como se te puede ocurrir!* o puede simplemente poner cara "<<endl;
+				cout << "	de triunfo y pronunciar *Ah... pues te acuerdas que...*."<<endl;
+				cout << "CONSEJO PARA TI--> COMO NO SE TE PUEDE OCURRIR Considerar esta carrera como tu eleccion :)"<<endl; break;
+                default:cout<<"leo"<<endl;
+						cout <<"	El egolatra  . "<<endl; 
+					cout <<"Sólo el es grande, los demas son el polvo bajo sus pies."<<endl; 
+					cout <<"De esta posicion derivan todas sus infamias."<<endl; 
+					cout <<"Pretextos posibles: Como maximo *Asi me vino en gana*"<<endl; 
+					cout << "CONSEJO PARA TI--> Los grandes Consideran esta carrera como su eleccion :)"<<endl; break;}break;
+            case 9:
+                switch(dia){
+                case 21:case 22:case 23:case 24:case 25:case 26:case 27:case 28:case 29:case 30:
+                cout<<"libra"<<endl;
+				cout << "	El cobarde . En general el es el primer lugar entre todos los sinverguenzas."<<endl;
+				cout << "	Criatura vil y con mucha maldad. ya mintio, alla ya hecho palo para su gente."<<endl;
+				cout << "	Esa es su forma de vida, el chisme"<<endl;
+				cout << "	Pretextos posibles: Ninguno. Tosio un poco para distraer y ya se fue"<<endl;
+					cout << "CONSEJO PARA TI--> Cambia tu forma de vida, y Considera esta carrera como tu eleccion :)"<<endl; break;
+                default:cout<<"virgo"<<endl;
+							cout << "El vengativo."<<endl;
+				cout << "	Si alguna vez te metiste en su camino o simplemente estuviste"<<endl;
+				cout << "	en el lugar equivocado y ni siquiera hiciste nada, preparate. "<<endl;
+				cout << "	Todos estos años solamente ha esperado el momento ideal para su venganza."<<endl;
+				cout << "Pretextos posibles: o puede poner cara de no entender nada y decir: "<<endl;
+				cout << "*¿¡Yo?! ¡Pero como se te puede ocurrir!* o puede simplemente poner cara "<<endl;
+				cout << "	de triunfo y pronunciar *Ah... pues te acuerdas que...*."<<endl;
+				cout << "CONSEJO PARA TI--> COMO NO SE TE PUEDE OCURRIR Considerar esta carrera como tu eleccion :)"<<endl; break;}break;
+            case 10:
+                switch(dia){
+                case 21:case 22:case 23:case 24:case 25:case 26:case 27:case 28:case 29:case 30:
+                cout<<"escorpio"<<endl;
+				cout << "	El sinverguenza con principios."<<endl;
+				cout << "	Los principios pueden ser cualquiera y adaptarse a el."<<endl;
+				cout << "	Desde su punto de vista, el se siente capaz de juzgar"<<endl;
+				cout << "	a cada uno de nosotros. Si hemos violado alguna de las"<<endl;
+					cout << "leyes que el se ha inventado, podemos estar seguros de que"<<endl;
+					cout << "seremos castigados. El se cree un Juez de Nacimiento."<<endl;
+					cout << "Pretextos posibles: Ninguno. Solamente alza la barbilla con orgullo."<<endl;
+					cout << "CONSEJO PARA TI--> Orgullosamente puedes considerar esta carrera como tu eleccion :)"<<endl; break;
+                default:cout<<"libra"<<endl;
+				cout << "	El cobarde . En general el es el primer lugar entre todos los sinverguenzas."<<endl;
+				cout << "	Criatura vil y con mucha maldad. ya mintio, alla ya hecho palo para su gente."<<endl;
+				cout << "	Esa es su forma de vida, el chisme"<<endl;
+				cout << "	Pretextos posibles: Ninguno. Tosio un poco para distraer y ya se fue"<<endl;
+					cout << "CONSEJO PARA TI--> Cambia tu forma de vida, y Considera esta carrera como tu eleccion :)"<<endl; break;}break;
+            case 11:
+                switch(dia){
+                case 21:case 22:case 23:case 24:case 25:case 26:case 27:case 28:case 29:case 30:
+                cout<<"sagitario"<<endl;
+				cout << "El escandaloso. "<<endl;
+				cout << "	El grosero del tranvia. La abuela del mercado. "<<endl;
+				cout << "	Siempre encuentra placenteros los conflictos como ellos."<<endl;
+				cout << "Pretextos posibles: Palabras con poco sentido, y mucha jerga"<<endl;
+				cout << "CONSEJO PARA TI--> animate puej, esta carrera esta maldini"<<endl; break;
+                default:cout<<"escorpio"<<endl;
+				cout << "	El sinverguenza con principios."<<endl;
+				cout << "	Los principios pueden ser cualquiera y adaptarse a el."<<endl;
+				cout << "	Desde su punto de vista, el se siente capaz de juzgar"<<endl;
+				cout << "	a cada uno de nosotros. Si hemos violado alguna de las"<<endl;
+					cout << "leyes que el se ha inventado, podemos estar seguros de que"<<endl;
+					cout << "seremos castigados. El se cree un Juez de Nacimiento."<<endl;
+					cout << "Pretextos posibles: Ninguno. Solamente alza la barbilla con orgullo."<<endl;
+					cout << "CONSEJO PARA TI--> Orgullosamente puedes considerar esta carrera como tu eleccion :)"<<endl; break;}break;
+            case 12:
+                switch(dia){
+                case 21:case 22:case 23:case 24:case 25:case 26:case 27:case 28:case 29:case 30:
+                cout<<"capricornio"<<endl;
+				cout<<"El sinverguenza limitado."<<endl;
+					cout<<"La indiferencia de Tauro + el egoismo de Leo + su propia estupidez personal."<<endl;
+					cout<<"Mas su codicia como condimento."<<endl;
+					cout<<"Pretextos posibles: *Pues asi paso...*"<<endl;
+					cout << "CONSEJO PARA TI--> Preocupate por cambiar, o te cambiaran a la fuerza"<<endl;
+						cout << "ADMINISTRACION INFORMATICA puede ayudarte, Considera esta carrera como tu eleccion :)"<<endl; break;
+                default:cout<<"sagitario"<<endl;
+				cout << "El escandaloso. "<<endl;
+				cout << "	El grosero del tranvia. La abuela del mercado. "<<endl;
+				cout << "	Siempre encuentra placenteros los conflictos como ellos."<<endl;
+				cout << "Pretextos posibles: Palabras con poco sentido, y mucha jerga"<<endl;
+				cout << "CONSEJO PARA TI--> animate puej, esta carrera esta maldini"<<endl; break;}break;
+ 
+      }
+ getch();
+cin.ignore();return 0;
+}
+
+
+
